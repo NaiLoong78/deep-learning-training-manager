@@ -245,6 +245,3 @@ fastapi+vue/
 ## 许可证
 
 当前仓库尚未添加许可证。公开发布前建议根据用途添加 `MIT License`、`Apache-2.0` 或其他合适的许可证文件。
-#   d e e p - l e a r n i n g - t r a i n i n g - m a n a g e r  
- #   d e e p - l e a r n i n g - t r a i n i n g - m a n a g e r  
- 
