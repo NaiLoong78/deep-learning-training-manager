@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "framework": "PyTorch",
+  "entrypoint": "train.py",
+  "python": "python",
+  "arguments": [],
+  "metric_prefix": "@@METRIC@@",
+  "parameters": [
+    {
+      "key": "epochs",
+      "label": "训练轮数",
+      "type": "integer",
+      "default": 100,
+      "minimum": 1,
+      "flag": "--epochs",
+      "runtime_editable": true
+    },
+    {
+      "key": "learning_rate",
+      "label": "学习率",
+      "type": "number",
+      "default": 0.001,
+      "minimum": 0.000001,
+      "flag": "--learning-rate",
+      "runtime_editable": true
+    }
+  ]
+}
